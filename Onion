@@ -5,7 +5,7 @@ local LocalPlayer = game:GetService("Players").LocalPlayer
 local Mouse = LocalPlayer:GetMouse()
 local HttpService = game:GetService("HttpService")
 local CoreGui = game:GetService("CoreGui")
-print("NewLibraryLoaded1")
+print("NewLibraryLoaded12")
 local OrionLib = {
 	Elements = {},
 	ThemeObjects = {},
@@ -548,7 +548,7 @@ function OrionLib:MakeWindow(WindowConfig)
 	local MobileOpenButton = SetChildren(SetProps(MakeElement("Button"), 
 	
 	{
-		BackgroundTransparency = 0.5, 
+		BackgroundTransparency = 0, 
 		Parent = Orion, 
 		Text =  "Open",
 		TextScaled = true,
